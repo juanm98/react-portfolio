@@ -1,7 +1,7 @@
-const Project = () => {
-  return ( 
-    <h1>Projects</h1>
-  );
+function Project() {
+  return (
+      <h1>Project</h1>
+  )
 }
 
 export default Project;
