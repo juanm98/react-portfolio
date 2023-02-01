@@ -10,7 +10,8 @@ import NavBar from './components/NavBar'
 
 function App() {
   return (
-    <NavBar>
+    <>
+    <NavBar/>
       <Routes>
         <Route path='about' element={<About />} />
         <Route path='/' element={<Home />} />
@@ -18,7 +19,7 @@ function App() {
         <Route path='resume' element={<Resume />} />
         <Route path='projects' element={<Projects />} />
       </Routes>
-    </NavBar>
+    </>
   );
 }
 
