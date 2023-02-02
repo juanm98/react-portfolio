@@ -1,21 +1,8 @@
-// import projects from '../data/projects'
+import { Link } from "react-router-dom"
+import hyphenateWords from "../utilities/hyphenateWords"
 
 function ProjectPreview(props) {
   return (
-  //   <>
-  //   <section>
-  //     {projects.map((project, id) => 
-  //       <li key={id}> 
-  //         {project.title}
-  //       <br />
-  //         {project.image}
-  //       </li>
-  //     )}
-  //   </section>
-	// 			<button>
-  //           Learn more
-  //       </button>
-  // </>
   <div>
     <img 
         src={props.image} 
@@ -23,12 +10,11 @@ function ProjectPreview(props) {
     />
 
     <section>
-        <h3>
-            {props.title}
-        </h3>
+        <Link to={hyphenateWords(props.title)}>
 				<button>
             Learn more
         </button>
+        </Link>
     </section>
 </div>
   )

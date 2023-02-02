@@ -5,9 +5,7 @@ function Project() {
   return (
       <>
       <div>
-      <ul>
-      <ProjectsList projectData={projectData} />
-      </ul>
+        <ProjectsList projects={projectData} />
       </div>
       </>
   )
