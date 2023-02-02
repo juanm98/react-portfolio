@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
 
 function NavBar() {
-  return (
-      <nav>
-          <Link 
-              to='/'
+    return (
+    <nav>
+        <Link 
+                to='/'
           >
               Juan Garcia
           </Link>
