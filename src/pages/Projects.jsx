@@ -1,4 +1,4 @@
-import ProjectList from "../components/ProjectList";
+import ProjectsList from "../components/ProjectsList";
 import projectData from "../data/projects";
 
 function Project() {
@@ -6,7 +6,11 @@ function Project() {
       <>
       <h1>Project</h1>
       <ul>
-        <ProjectList projects={projectData}/>
+        {projectData.map(project =>
+          <li key={project.title}>
+            <ProjectsList project={project}/>
+          </li>
+          )}
       </ul>
       </>
   )
