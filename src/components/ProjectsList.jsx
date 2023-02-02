@@ -1,8 +1,14 @@
+import projectData from "../data/projects";
+import ProjectPreview from "./ProjectPreview";
+
 function ProjectsList(props) {
   return (
-      <>
-      <div>{props.project.title}</div>
-      </>
+    <>
+    <h1>Project</h1>
+    <ul>
+      <ProjectPreview projectData={projectData} />
+    </ul>
+    </>
   )
 }
 

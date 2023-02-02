@@ -4,14 +4,11 @@ import projectData from "../data/projects";
 function Project() {
   return (
       <>
-      <h1>Project</h1>
+      <div>
       <ul>
-        {projectData.map(project =>
-          <li key={project.title}>
-            <ProjectsList project={project}/>
-          </li>
-          )}
+      <ProjectsList projectData={projectData} />
       </ul>
+      </div>
       </>
   )
 }
