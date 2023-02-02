@@ -5,12 +5,12 @@ function ProjectPreview(props) {
   return (
   <div>
     <img 
-        src={props.image} 
-        alt={props.title}
+        src={props.project.image} 
+        alt={props.project.title}
     />
 
     <section>
-        <Link to={hyphenateWords(props.title)}>
+        <Link to={hyphenateWords(props.project.title)}>
 				<button>
             Learn more
         </button>

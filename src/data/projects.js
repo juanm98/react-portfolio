@@ -1,4 +1,4 @@
-const projectData = [
+const projectsData = [
   {
     title: "Connect-Force",
     description: "Connect Force is a re-creation of Connect Four! Both players begin with 21 identical pieces, and the first player to achieve a line of four connected pieces wins the game. If all 42 tokens are played the game is drawn.",
@@ -15,4 +15,4 @@ const projectData = [
   }
 ]
 
-export default projectData
+export default projectsData
