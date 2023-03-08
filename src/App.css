@@ -1,3 +1,22 @@
 img {
   width: 300px;
 }
+
+nav {
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 35px
+}
+
+#icon {
+  width: 30px;
+  height: 30px;
+}
