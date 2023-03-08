@@ -4,7 +4,7 @@ function NavBar() {
     return (
     <nav>
         <Link 
-                to='/'
+            to='/'
           >
               Juan Garcia
           </Link>
