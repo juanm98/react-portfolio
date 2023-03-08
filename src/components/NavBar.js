@@ -3,11 +3,14 @@ import { Link } from "react-router-dom"
 function NavBar() {
     return (
         <nav>
+            <div>
             <Link
                 to='/'
-            >
-                Juan Garcia
+                >
+                <img src='/mypic.jpg' alt='Juan Garcia' id="profile-pic"/>
+                <span>Juan Garcia</span>
             </Link>
+                </div>
 
             <ul>
                 <li title="About">
